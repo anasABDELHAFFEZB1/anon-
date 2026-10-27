@@ -1,0 +1,87 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    background:linear-gradient(blue, rgb(94, 10, 128), rgb(6, 64, 121));
+}
+
+#nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+#nav h1{
+    width:40%;
+}
+#c{
+    color: white;
+}
+#nav ul{
+    width:60%;
+     display:flex;
+     justify-content:space-between;
+}
+#nav li{
+    list-style-type:none;
+}
+#nav ul li a{
+    text-decoration:none;
+    color: white;
+    font-size: large;
+}
+.navbar{
+    background-color: antiquewhitew;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+h2{
+    color: white;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+.hero{
+    background-color: aqua;
+    text-align: center;
+    font-style: italic;
+}
+h1{
+    color: white;
+}
+.btn{
+    background-color: blue;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: red;
+}
+.car{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+   
+    
+}
+.card{
+    transition: 0.5s;
+    background-color: aqua;
+    text-align: center;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+img{
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
